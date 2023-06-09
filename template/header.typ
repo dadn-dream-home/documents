@@ -1,5 +1,5 @@
 // use this inside page.header
-#import "../metadata.typ": meta, logo
+#import "../metadata.typ": meta
 
 #locate(loc => {
   set text(font: "Latin Modern Mono", size: 10pt)
@@ -15,7 +15,7 @@
 
   stack(
     dir: ltr,
-    image(logo, height: 2.5em),
+    image("hcmut.png", height: 2.5em),
     0.5cm,
     align(
       horizon,

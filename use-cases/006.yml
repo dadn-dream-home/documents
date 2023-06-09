@@ -1,0 +1,30 @@
+name: Thiết lập ngưỡng cảm biến
+author: Nguyễn Duy Khang
+date: 10/03/2023
+description: >
+  User muốn thiết lập ngưỡng thông báo cảm biến.
+
+actor: >
+  User
+
+trigger: >
+  User ở màn hình thiết lập của cảm biến
+
+precondition: >
+  Không có
+
+postcondition: >
+  User thiết lập cảm biến thành công
+
+normal-flow: |
+  1. User chọn switch bật, tắt thông báo.
+  2. User chọn ngưỡng thông báo.
+  3. User chọn các hành động khi cảm biến chạm ngưỡng thông báo.
+  4. User nhấn nút lưu thiết lập.
+
+alternative-flow: >
+  Không có
+
+exception-flow: >
+  - Tại bước 4, App không kết nối được với server để lưu thiết lập. Thiết lập
+  không được lưu.

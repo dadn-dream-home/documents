@@ -1,0 +1,35 @@
+name: Thêm cảm biến, thiết bị mới
+author: Nguyễn Tiến Đạt
+date: 10/03/2023
+description: >
+  User muốn thêm thiết bị mới vào nhà thông minh.
+
+actor: >
+  User
+
+trigger: >
+  User nhấn chọn nút thêm thiết bị trên màn hình Settings
+
+precondition: >
+  Không có
+
+postcondition: >
+  User thêm thiết bị thành công
+
+normal-flow: >
+  1. User điền tên thiết bị, chọn loại thiết bị.
+
+  2. User nhấn nút xác nhận.
+
+alternative-flow: >
+  Không có
+
+exception-flow: >
+  - Tại bước 3, App không kết nối được với server để thêm thiết bị. Thêm thiết bị
+  không được thực hiện.
+
+  - Tại bước 3, tên thiết bị bị trùng với thiết bị đã có trong hệ thống. App
+  hiển thị thông báo lỗi và yêu cầu User nhập lại tên thiết bị. Quay lại bước 2.
+
+  - Tại bước 3, User không nhập tên thiết bị. App hiển thị thông báo lỗi và yêu
+  cầu User nhập lại tên thiết bị. Quay lại bước 2.

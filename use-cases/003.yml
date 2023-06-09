@@ -1,0 +1,30 @@
+name: Điều khiển thiết bị
+author: Hoàng Nhật Hà
+date: 16/02/2023
+description: >
+  User muốn điều khiển, tắt bật, và cài đặt chế độ tự động cho các thiết bị
+  đèn, quạt đã được kết nối với hệ thống thông qua app
+
+actor: >
+  User
+
+trigger: >
+  User vào màn hình Dashboard
+
+precondition: >
+  Không có
+
+postcondition: >
+  User tắt bật thiết bị thành công
+
+normal-flow: >
+  1. User bật tắt công tắc của thiết bị
+
+  2. App nhận thông tin và thực hiện các kết quả điều khiển tương ứng
+
+alternative-flow: >
+  Không có
+
+exception-flow: >
+  Tại bước 2, App không kết nối được với server để thay đổi trạng thái thiết
+  bị. Thay đổi không được thực hiện.

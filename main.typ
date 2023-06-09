@@ -1,4 +1,4 @@
-#import "metadata.typ": meta, logo
+#import "metadata.typ": meta
 
 #set document(author: meta.students.values(), title: meta.title)
 #set page(

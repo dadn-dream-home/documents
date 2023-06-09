@@ -12,4 +12,3 @@
   ),
   advisor: "ThS. Mai Đức Trung"
 )
-#let logo = "../images/hcmut.png"

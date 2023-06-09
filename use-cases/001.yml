@@ -1,0 +1,26 @@
+name: Xem giá trị cảm biến trên LCD
+author: Du Thành Đạt
+date: 16/02/2023
+description: >
+  Xem giá trị cảm biến mới nhất trên màn hình LCD.
+
+actor: >
+  User
+
+trigger: >
+  User xem màn hình LCD.
+
+precondition: >
+  Không có
+
+postcondition: >
+  User biết giá trị mới nhất của cảm biến.
+
+normal-flow: >
+  1. User xem giá trị mới nhất của cảm biến trên màn hình LCD.
+
+alternative-flow: >
+  Không có
+
+exception-flow: >
+  Không có

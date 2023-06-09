@@ -1,0 +1,29 @@
+name: Thiết lập lịch trình thiết bị
+author: Du Thành Đạt
+date: 10/03/2023
+description: >
+  User muốn thiết lập lịch trình thiết bị.
+
+actor: >
+  User
+
+trigger: >
+  User ở màn hình thiết lập của thiết bị
+
+precondition: >
+  Không có
+
+postcondition: >
+  User thiết lập thiết bị thành công
+
+normal-flow: |
+  1. User chọn switch bật, tắt chế độ tự động.
+  2. User chọn lịch trình bật tắt tự động.
+  3. User nhấn nút lưu thiết lập.
+
+alternative-flow: >
+  Không có
+
+exception-flow: >
+  - Tại bước 3, App không kết nối được với server để lưu thiết lập. Thiết lập
+  không được lưu.

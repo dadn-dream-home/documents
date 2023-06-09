@@ -1,0 +1,27 @@
+name: Xem lịch sử hoạt động thiết bị
+author: Du Thành Đạt
+date: 10/03/2023
+description: >
+  User muốn xem lịch sử hoạt động thiết bị.
+
+actor: >
+  User
+
+trigger: >
+  User vào màn hình Activity từ thanh điều hướng
+
+precondition: >
+  Không có
+
+postcondition: >
+  User xem được lịch sử hoạt động
+
+normal-flow: |
+  1. User xem lịch sử hoạt động của thiết bị.
+
+alternative-flow: >
+  Không có
+
+exception-flow: >
+  - Tại bước 1, App không kết nối được với server. Lịch sử hoạt động không được
+  hiển thị.

@@ -1,0 +1,30 @@
+name: Xem giá trị cảm biến trên app
+author: Hoàng Nhật Hà
+date: 16/02/2023
+description: >
+  User muốn xem các giá trị độ ẩm, độ sáng, nhiệt độ mà các sensor đang đo được
+  ở thời điểm hiện tại bằng app.
+
+actor: >
+  User
+
+trigger: >
+  User vào màn hình Dashboard
+
+precondition: >
+  Không có
+
+postcondition: >
+  User biết được các giá trị hiện tại sensor đo được.
+
+normal-flow: >
+  1. App cập nhật các giá trị mà sensor đo được và hiển thị số liệu lên màn hình
+
+  2. User đọc các số liệu và biết được thông tin về độ đo mong muốn
+
+alternative-flow: >
+  Không có
+
+exception-flow: >
+  Tại bước 1, App không kết nối được với server để lấy dữ liệu của sensor.
+  App crash.

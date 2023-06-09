@@ -1,0 +1,33 @@
+name: Thiết lập cảm biến, thiết bị
+author: Du Thành Đạt
+date: 10/03/2023
+description: >
+  User muốn thiết lập ngưỡng thông báo cảm biến, tắt mở tự động của thiết bị.
+
+actor: >
+  User
+
+trigger: >
+  User bấm vào thiết bị trên màn hình Settings hoặc Dashboard
+
+precondition: >
+  Không có
+
+postcondition: >
+  User thiết lập thiết bị thành công
+
+normal-flow: >
+  Tùy loại thiết bị, chuyển đến use-case 006 hoặc 007.
+
+alternative-flow: >
+  Không có
+
+exception-flow: >
+  - Tại bước 3, App không kết nối được với server để thêm thiết bị. Thêm thiết bị
+  không được thực hiện.
+
+  - Tại bước 3, tên thiết bị bị trùng với thiết bị đã có trong hệ thống. App
+  hiển thị thông báo lỗi và yêu cầu User nhập lại tên thiết bị. Quay lại bước 2.
+
+  - Tại bước 3, User không nhập tên thiết bị. App hiển thị thông báo lỗi và yêu
+  cầu User nhập lại tên thiết bị. Quay lại bước 2.

@@ -1,4 +1,4 @@
-#import "../metadata.typ": meta, logo
+#import "../metadata.typ": meta
 
 #stack(
   dir: ttb,
@@ -14,7 +14,7 @@
     )
   },
   1.5cm,
-  align(center, image("../images/hcmut.png", height: 3cm)),
+  align(center, image("hcmut.png", height: 3cm)),
   1.5cm,
   stack(
     dir: ttb,
