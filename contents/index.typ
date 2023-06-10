@@ -4,3 +4,4 @@
 #include "4-use-case-scenarios/index.typ"
 #include "5-thiet-ke-database/index.typ"
 #include "6-luoc-do-deployment/index.typ"
+#include "7-thiet-ke-kien-truc/index.typ"
