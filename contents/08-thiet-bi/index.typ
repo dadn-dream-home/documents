@@ -3,7 +3,7 @@
 Cảm biến, thiết bị ở đây được sử dụng do OhStem cung cấp. Dưới đây là bảng các
 các thiết bị được nhóm sử dụng.
 
-#align(horizon, table(
+#figure(align(left + horizon, table(
     columns: (auto, auto, 1fr),
     inset: 1em,
     image("yolobit.jpg", width: 3cm), [*Bộ kit#linebreak()Yolo:Bit*], [
@@ -49,4 +49,6 @@ các thiết bị được nhóm sử dụng.
         - Kích thước của mạch: 80mm #sym.times 42mm #sym.times 19m
         - Trọng lượng: 38g
     ]
-))
+)),
+    caption: "Bảng các thiết bị được sử dụng trong đồ án"
+)
