@@ -2,7 +2,7 @@
 #import "../metadata.typ": meta
 
 #locate(loc => {
-  set text(font: "Latin Modern Mono", size: 10pt)
+  set text(font: "Iosevka NF", size: 10pt)
   show: block.with(
     stroke: (bottom: 1pt),
     inset: (bottom: 0.5em),

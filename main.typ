@@ -16,6 +16,7 @@
 #show heading: it => block(inset: (top: 1em, bottom: .5em), it)
 #set par(leading: 1.1em)
 #set figure(gap: 1em)
+#show raw: set text(font: "Iosevka NF")
 
 #include "template/cover.typ"
 
