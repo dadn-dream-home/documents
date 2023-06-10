@@ -24,7 +24,7 @@ các thiết bị được nhóm sử dụng.
         - Tín hiệu đầu ra: Tín hiệu I2C
     ],
 
-    image("den.png", width: 3cm), [*4 LED RGB*], [
+    image("den.png", width: 3cm), [*LED RGB*], [
         - Điện áp hoạt động: $3.3 "V"$
         - Số lượng LED: 4 #sym.times RGB LED
         - Dòng điện tối đa: $60 "mA"$ / (1 LED), $240 "mA"$ / (4 LED)
@@ -39,5 +39,14 @@ các thiết bị được nhóm sử dụng.
         - Điện áp hoạt động: $3.3 "V"$
         - Tín hiệu điều khiển: 2 pins
         - Kích thước của mạch: 24mm #sym.times 48mm #sym.times 16mm
+    ],
+
+    image("lcd.png", width: 3cm), [*LCD 1602#linebreak()I2C*], [
+        - Điện áp hoạt động: $3.3 "V"$.
+        - Địa chỉ i2c: 0x27
+        - Màu: Xanh lá
+        - Kích thước lỗ bắt ốc: 3 #sym.times M3
+        - Kích thước của mạch: 80mm #sym.times 42mm #sym.times 19m
+        - Trọng lượng: 38g
     ]
 ))
