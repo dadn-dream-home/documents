@@ -1,3 +1,4 @@
 main.pdf   binary
 **.png     binary
 diagrams/** binary
+diagrams/README.md -binary
