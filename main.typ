@@ -44,3 +44,5 @@
 #show par: set block(spacing: 2em)
 
 #include "contents/index.typ"
+
+#bibliography("bibliography.yml")

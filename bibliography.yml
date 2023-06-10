@@ -1,0 +1,22 @@
+andrea0: &andrea0
+  type: blog
+  author: "Andrea Bizzotto"
+  url: https://codewithandrea.com
+
+andrea1:
+  type: article
+  title: "Flutter Project Structure: Feature-first or Layer-first?"
+  date: 2022-03-23
+  url:
+    value: https://codewithandrea.com/articles/flutter-project-structure/
+    date: 2023-06-10
+  parent: *andrea0
+
+andrea2:
+  type: article
+  title: "Flutter Riverpod 2.0: The Ultimate Guide"
+  date: 2022-10-28
+  url:
+    value: https://codewithandrea.com/articles/flutter-state-management-riverpod/
+    date: 2023-06-10
+  parent: *andrea0
