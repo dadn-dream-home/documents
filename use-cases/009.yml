@@ -1,0 +1,27 @@
+name: Xem thông báo vượt ngưỡng
+author: Nguyễn Duy Khang
+date: 10/03/2023
+description: >
+  Thông báo cảm biến chạm ngưỡng cho người dùng.
+
+actor: >
+  User
+
+trigger: >
+  Giá trị một cảm biến chạm ngưỡng được cài đặt ở UC006.
+
+precondition: >
+  User đang ở ngoài màn hình Dashboard.
+
+postcondition: >
+  User xem được thông báo.
+
+normal-flow: |
+  1. Thông báo được hiển thị ở dạng snackbar dưới màn hình.
+
+alternative-flow: >
+  Không có
+
+exception-flow: >
+  - Tại bước 1, App không kết nối được với server. Thông báo không được
+  hiển thị.

@@ -1,8 +1,8 @@
-= Use-case scenarios
+= Use case scenarios <sec:uc-scenarios>
 
 #let use-cases = {
     // manually update this
-    let number-of-use-cases = 8
+    let number-of-use-cases = 9
     let i = 1
     let use-cases = (:)
     while (i <= number-of-use-cases) {
@@ -21,7 +21,7 @@
     use-cases
 }
 
-Danh sách use case:
+Danh sách các use case được đặc tả ở phần này:
 
 #for (filename, use-case) in use-cases [
     - UC#filename #sym.dot #use-case.name (#ref(label("fig:UC" + filename)))

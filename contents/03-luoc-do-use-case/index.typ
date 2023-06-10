@@ -1,17 +1,10 @@
-// manually update this
-#let number-of-use-cases = 8
+= Lược đồ use case
 
-#let i = 1
-#while (i <= number-of-use-cases) [
-    // pad left i with 0
-    #let file-name = str(i)
-    #if (i < 10) {
-        file-name = "0" + file-name
-    }
-    #if (i < 100) {
-        file-name = "0" + file-name
-    }
-    #{ i = i + 1 }
+Nhóm đề xuất các use case ở lược đồ @fig:usecase.
 
+#figure(
+    image("use-cases.drawio.svg", width: 60%),
+    caption: "Lược đồ use case",
+) <fig:usecase>
 
-]
+Chi tiết từng use case được mô tả ở @sec:uc-scenarios.
