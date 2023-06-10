@@ -7,3 +7,4 @@
 #include "07-thiet-ke-kien-truc/index.typ"
 #include "08-thiet-bi/index.typ"
 #include "09-hien-thuc/index.typ"
+#include "10-ket-luan/index.typ"
