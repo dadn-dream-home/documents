@@ -1,6 +1,6 @@
 = Lược đồ deployment
 
-Nhóm đề xuất lược đồ deployment ở hình @fig:deployment
+Nhóm đề xuất lược đồ deployment ở @fig:deployment.
 
 #figure(
     image("deployment.drawio.svg", width: 100%),
