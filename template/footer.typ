@@ -16,7 +16,7 @@
   let current-page = counter(page).at(loc).at(0)
   let total-pages = counter(page).final(loc).at(0)
 
-  let semester-of-year = calc.mod(meta.semester, 10)
+  let semester-of-year = calc.rem(meta.semester, 10)
   // change this when you come from the 2100s
   let year-from = calc.round(meta.semester / 10) + 2000
   let year-to = year-from + 1
