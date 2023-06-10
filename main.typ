@@ -15,6 +15,7 @@
 #set heading(numbering: "1.1")
 #show heading: it => block(inset: (top: 1em, bottom: .5em), it)
 #set par(leading: 1.1em)
+#set figure(gap: 1em)
 
 #include "template/cover.typ"
 

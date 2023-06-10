@@ -1,0 +1,53 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "hide": true,
+            "label": "drawio to pdf",
+            "type": "shell",
+            "command": "draw.io",
+            "args": [
+                "${input:diagramName}.drawio",
+                "--crop",
+                "--export",
+                "--format=pdf",
+                "--output=${input:diagramName}.drawio.pdf",
+            ],
+            "options": {
+                "cwd": "diagrams"
+            },
+        },
+        {
+            "hide": true,
+            "label": "pdf to svg",
+            "type": "shell",
+            "command": "inkscape",
+            "args": [
+                "${input:diagramName}.drawio.pdf",
+                "--pdf-poppler",
+                "--export-plain-svg",
+                "--export-text-to-path",
+                "--export-filename=${input:diagramName}.drawio.svg",
+            ],
+            "options": {
+                "cwd": "diagrams"
+            }
+        },
+        {
+            "label": "drawio to svg",
+            "type": "shell",
+            "dependsOn": [
+                "drawio to pdf",
+                "pdf to svg"
+            ],
+            "dependsOrder": "sequence"
+        }
+    ],
+    "inputs": [
+        {
+            "id": "diagramName",
+            "description": "Diagram name:",
+            "type": "promptString"
+        },
+    ]
+}

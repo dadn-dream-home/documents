@@ -48,7 +48,6 @@ Danh sách use case:
             [*Alternative flow*], eval-content(use-case.alternative-flow),
             [*Exception flow*], eval-content(use-case.exception-flow),
         )),
-        gap: 1em,
         caption: [UC#filename #sym.dot #use-case.name],
     ) #label("fig:UC" + filename)
 ]
