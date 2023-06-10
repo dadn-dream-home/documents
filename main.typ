@@ -24,7 +24,17 @@
 #outline(
   title: "Mục lục",
   depth: 3,
-  indent: true
+  indent: true,
+)
+
+#outline(
+  title: "Danh mục hình vẽ",
+  target: figure.where(kind: image),
+)
+
+#outline(
+  title: "Danh mục bảng biểu",
+  target: figure.where(kind: table),
 )
 
 #pagebreak()
