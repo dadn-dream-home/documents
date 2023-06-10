@@ -6,3 +6,4 @@
 #include "6-luoc-do-deployment/index.typ"
 #include "7-thiet-ke-kien-truc/index.typ"
 #include "8-thiet-bi/index.typ"
+#include "9-hien-thuc/index.typ"
