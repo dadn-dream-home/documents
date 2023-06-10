@@ -3,3 +3,4 @@
 #include "3-luoc-do-use-case/index.typ"
 #include "4-use-case-scenarios/index.typ"
 #include "5-thiet-ke-database/index.typ"
+#include "6-luoc-do-deployment/index.typ"

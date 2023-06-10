@@ -1,0 +1,68 @@
+<mxfile host="Electron" modified="2023-06-10T07:31:18.865Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.3.7 Chrome/112.0.5615.204 Electron/24.5.0 Safari/537.36" etag="eqrsmWa_-rtM8Gm8o7eV" version="21.3.7" type="device">
+  <diagram id="TJmZI9j9Hh9fPMoDJy_g" name="deployment">
+    <mxGraphModel dx="1418" dy="820" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="aHoO_2Uyfh0Pz5gvWjCl-1" value="&lt;div&gt;&lt;i&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;&amp;lt;&amp;lt;device&amp;gt;&amp;gt;&lt;/span&gt;&lt;/i&gt;&lt;/div&gt;&lt;div&gt;Sensor&lt;br&gt;&lt;/div&gt;" style="verticalAlign=top;align=center;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=1;html=1;whiteSpace=wrap;fontFamily=Iosevka;" parent="1" vertex="1">
+          <mxGeometry x="270" y="174" width="150" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="aHoO_2Uyfh0Pz5gvWjCl-4" value="&lt;div&gt;&lt;i&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;&amp;lt;&amp;lt;artifact&amp;gt;&amp;gt;&lt;/span&gt;&lt;/i&gt;&lt;/div&gt;&lt;div&gt;Yolo:Bit binary&lt;br&gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;fontStyle=1;fontFamily=Iosevka;" parent="1" vertex="1">
+          <mxGeometry x="290" y="234" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="aHoO_2Uyfh0Pz5gvWjCl-6" value="&lt;div&gt;&lt;i&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;&amp;lt;&amp;lt;device&amp;gt;&amp;gt;&lt;/span&gt;&lt;/i&gt;&lt;/div&gt;&lt;div&gt;Backend Server&lt;br&gt;&lt;/div&gt;" style="verticalAlign=top;align=center;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=1;html=1;whiteSpace=wrap;fontFamily=Iosevka;" parent="1" vertex="1">
+          <mxGeometry x="496" y="174" width="180" height="367" as="geometry" />
+        </mxCell>
+        <mxCell id="aHoO_2Uyfh0Pz5gvWjCl-7" value="&lt;div&gt;&lt;i&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;&amp;lt;&amp;lt;device&amp;gt;&amp;gt;&lt;/span&gt;&lt;/i&gt;&lt;/div&gt;&lt;div&gt;Mobile Phone&lt;br&gt;&lt;/div&gt;" style="verticalAlign=top;align=center;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=1;html=1;whiteSpace=wrap;fontFamily=Iosevka;" parent="1" vertex="1">
+          <mxGeometry x="732" y="284" width="180" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="aHoO_2Uyfh0Pz5gvWjCl-8" value="&lt;div&gt;&lt;i&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;&amp;lt;&amp;lt;artifact&amp;gt;&amp;gt;&lt;/span&gt;&lt;/i&gt;&lt;/div&gt;&lt;div&gt;Flutter app&lt;br&gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;fontStyle=1;fontFamily=Iosevka;" parent="1" vertex="1">
+          <mxGeometry x="767" y="342.5" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="aHoO_2Uyfh0Pz5gvWjCl-65" value="MQTT" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;startArrow=classic;startFill=1;fontStyle=2;fontSize=12;fontFamily=Iosevka;" parent="1" source="aHoO_2Uyfh0Pz5gvWjCl-9" target="aHoO_2Uyfh0Pz5gvWjCl-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aHoO_2Uyfh0Pz5gvWjCl-9" value="&lt;div&gt;&lt;i&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;&amp;lt;&amp;lt;artifact&amp;gt;&amp;gt;&lt;/span&gt;&lt;/i&gt;&lt;/div&gt;&lt;div&gt;mosquitto binary&lt;br&gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;fontStyle=1;fontFamily=Iosevka;" parent="1" vertex="1">
+          <mxGeometry x="527" y="234" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="aHoO_2Uyfh0Pz5gvWjCl-11" value="&lt;div&gt;&lt;i&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;&amp;lt;&amp;lt;artifact&amp;gt;&amp;gt;&lt;/span&gt;&lt;/i&gt;&lt;/div&gt;SQLite file" style="html=1;whiteSpace=wrap;fontStyle=1;fontFamily=Iosevka;" parent="1" vertex="1">
+          <mxGeometry x="527" y="451" width="110" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="aHoO_2Uyfh0Pz5gvWjCl-64" value="gRPC" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;fontSize=12;fontStyle=2;fontFamily=Iosevka;" parent="1" source="aHoO_2Uyfh0Pz5gvWjCl-12" target="aHoO_2Uyfh0Pz5gvWjCl-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aHoO_2Uyfh0Pz5gvWjCl-12" value="&lt;div&gt;&lt;i&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;&amp;lt;&amp;lt;artifact&amp;gt;&amp;gt;&lt;/span&gt;&lt;/i&gt;&lt;/div&gt;Go binary" style="html=1;whiteSpace=wrap;fontStyle=1;fontFamily=Iosevka;" parent="1" vertex="1">
+          <mxGeometry x="527" y="336" width="110" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="aHoO_2Uyfh0Pz5gvWjCl-66" value="MQTT" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;fontStyle=2;fontSize=12;fontFamily=Iosevka;" parent="1" source="aHoO_2Uyfh0Pz5gvWjCl-9" target="aHoO_2Uyfh0Pz5gvWjCl-12" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="537" y="269" as="sourcePoint" />
+            <mxPoint x="412" y="269" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aHoO_2Uyfh0Pz5gvWjCl-67" value="SQLite" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;fontStyle=2;fontSize=12;fontFamily=Iosevka;" parent="1" source="aHoO_2Uyfh0Pz5gvWjCl-12" target="aHoO_2Uyfh0Pz5gvWjCl-11" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="592" y="294" as="sourcePoint" />
+            <mxPoint x="592" y="346" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aHoO_2Uyfh0Pz5gvWjCl-68" value="&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;device&amp;gt;&amp;gt;&lt;/i&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;Actuator&lt;br&gt;&lt;/div&gt;" style="verticalAlign=top;align=center;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=1;html=1;whiteSpace=wrap;fontFamily=Iosevka;" parent="1" vertex="1">
+          <mxGeometry x="270" y="336" width="150" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="aHoO_2Uyfh0Pz5gvWjCl-69" value="&lt;div&gt;&lt;i&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;&amp;lt;&amp;lt;artifact&amp;gt;&amp;gt;&lt;/span&gt;&lt;/i&gt;&lt;/div&gt;&lt;div&gt;Yolo:Bit binary&lt;br&gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;fontStyle=1;fontFamily=Iosevka;" parent="1" vertex="1">
+          <mxGeometry x="290" y="396" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="aHoO_2Uyfh0Pz5gvWjCl-70" value="MQTT" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;fontStyle=2;fontSize=12;fontFamily=Iosevka;" parent="1" source="aHoO_2Uyfh0Pz5gvWjCl-9" target="aHoO_2Uyfh0Pz5gvWjCl-69" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="509" y="269" as="sourcePoint" />
+            <mxPoint x="410" y="269" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="461" y="276" />
+              <mxPoint x="461" y="421" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
