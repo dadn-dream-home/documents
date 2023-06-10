@@ -1,0 +1,5 @@
+{
+    "tasks": {
+        "generate-svg": "deno run -A ./scripts/generate_svg.ts **/*.drawio"
+    }
+}

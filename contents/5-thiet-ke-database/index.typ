@@ -3,7 +3,7 @@
 Nhóm thiết kế database với lược đồ ở @fig:database-schema.
 
 #figure(
-    image("../../diagrams/database.drawio.svg", width: 100%),
+    image("database.svg", width: 100%),
     caption: "Lược đồ schema của database"
 ) <fig:database-schema>
 
